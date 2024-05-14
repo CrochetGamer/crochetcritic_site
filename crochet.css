@@ -1,0 +1,41 @@
+.main-logo {
+  width: 150px;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 10px 10px 5px 10px;
+}
+
+.header {
+  background-color: rgb(230, 109, 166);
+}
+
+.banner {
+  margin-top: 50px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: Calibri;
+  font-weight: 800;
+  color: white;
+  font-size: 3em;
+  padding-left: 20px;
+}
+
+.greeting {
+  font-family: Calibri;
+  font-size: 1.5em;
+  color: rgb(230, 109, 166);
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.footer {
+  background-color: rgb(230, 109, 166);
+  min-height: 40px;
+  color: white;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding-top: 10px;
+}
