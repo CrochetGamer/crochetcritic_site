@@ -1,19 +1,25 @@
+* {
+  font-family: Calibri;
+}
+
+/* HOME PAGE */
 .main-logo {
   width: 150px;
   border-radius: 100px;
   display: inline-block;
   margin: 10px 10px 5px 10px;
+  cursor: pointer;
 }
 
 .header {
   background-color: rgb(230, 109, 166);
+  text-align: center;
 }
 
 .banner {
   margin-top: 50px;
   display: inline-block;
   vertical-align: top;
-  font-family: Calibri;
   font-weight: 800;
   color: white;
   font-size: 3em;
@@ -21,12 +27,12 @@
 }
 
 .greeting {
-  font-family: Calibri;
   font-size: 1.5em;
   color: rgb(230, 109, 166);
   padding: 20px 20px 20px 20px;
   text-align: center;
-  max-width: 800px;
+ 
+  text-align: center;
 }
 
 .footer {
@@ -34,8 +40,41 @@
   min-height: 40px;
   color: white;
   text-align: center;
-  font-family: Calibri;
   font-size: 1.5em;
   vertical-align: middle;
   padding-top: 10px;
+}
+
+.nav-bar {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.nav-item {
+  padding: 40px 10px 10px;
+  font-size: 1.5em;
+  color: rgb(230, 109, 166);
+  font-weight: 700;
+  margin-right: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dividing-line {
+  background-color: rgb(230, 109, 166);
+  height: 4px;
+  width: 450px;
+  text-align: center;
+}
+
+.date {
+  color: rgb(230, 109, 166);
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+
+.blog-post {
+  line-height: 1.5em;
+  margin: 40px 60px 60px;
 }
